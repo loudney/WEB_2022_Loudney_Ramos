@@ -1,0 +1,66 @@
+
+
+body {
+  font-size: 15pt;
+  background: linear-gradient(to bottom, rgb(10, 165, 106), rgb(141, 76, 161),rgb(82, 32, 146));
+  background-size: 200% 200%;
+}
+.LINEA {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.columnas {
+  flex-basis: 30%;
+  min-width: 325px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.columnas h3 {
+  text-align: center;
+}
+
+.columnas img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columnas a {
+  color: black;
+}
+
+.columnas a:hover {
+  color: magenta;
+}
+
+.contenedores {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contenedores h3 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+h3 {
+  justify-content: center;
+}
+
+
+.contenedor {
+  padding: 10px;
+  background-color: coral;
+  color: white;
+}
+
